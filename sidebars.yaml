@@ -57,6 +57,23 @@
       page: docs/ledger-state-fix/index.md
       expanded: false
     - page: docs/ledger-state-fix/index.md
+    - group: Historical Data Search
+      page: docs/historical-data/index.md
+      expanded: false
+      items:
+        - group: Concepts
+          expanded: false
+          items:
+            - page: docs/historical-data/concepts/historical-queries.md
+            - page: docs/historical-data/concepts/time-and-ledgers.md
+            - page: docs/historical-data/concepts/pagination.md
+        - group: Reference
+          page: docs/historical-data/reference/historical-reference.md
+          expanded: false
+          items:
+            - page: docs/historical-data/reference/account_tx.md
+            - page: docs/historical-data/reference/ledger.md
+            - page: docs/historical-data/reference/ledger_data.md
     - page: docs/xls-69d/index.md
 
     - page: docs/xls-70d-credentials/index.md
